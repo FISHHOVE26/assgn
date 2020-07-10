@@ -1,0 +1,27 @@
+form{
+    width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.intext{
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+}
+#shop{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+}
+#btn1{
+background: blue;
+color: white;
+border: 1px solid black;
+height: 25px;
+margin-left: 150px;
+font-size: 15px;
+height: 35px;
+}
+#quiry{
+resize:none;
+}

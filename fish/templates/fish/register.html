@@ -1,0 +1,12 @@
+{% extends 'fish/base.html' %}
+
+{% block content %}
+<div class=" reg bg-secondary">
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+     <button type="submit" class="btn btn-outline-light btn-sm ml-3 mt-4 ">Sign up</button>
+    </form>
+</div>
+
+{% endblock %}
